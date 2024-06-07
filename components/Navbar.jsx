@@ -17,7 +17,7 @@ const Navbar = () => {
             <h1 className="hidden lg:flex md:flex text-2xl text-white lg:text-left md:text-left">Navbar</h1>
             </Link>
           <div className='flex gap-4 text-lg'>
-            <Link href='/' className={`${pathname === '/' ? 'text-red-600 font-bold' : ''} text-white hover:font-bold hover:text-red-400 rounded-md px-3 py-2`}>
+            <Link href='/' className={`${pathname === '/' ? 'text-blue-600 font-bold' : ''} text-white hover:font-bold hover:text-red-400 rounded-md px-3 py-2`}>
               Home
             </Link>
             <Link href='/link1' className={`${pathname === '/link1' ? 'text-red-600 font-bold' : ''} text-white hover:font-bold hover:text-red-400 rounded-md px-3 py-2`}>
