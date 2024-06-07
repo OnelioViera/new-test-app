@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "csstools.postcss",
+    "esbenp.prettier-vscode"
+  ]
+}
