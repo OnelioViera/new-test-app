@@ -20,10 +20,10 @@ const Navbar = () => {
             <Link href='/' className={`${pathname === '/' ? 'font-bold border-b-2 border-red-600' : ''} text-white hover:font-bold hover:text-red-600 px-3 py-2`}>
               Home
             </Link>
-            <Link href='/link1' className={`${pathname === '/link1' ? 'font-bold' : ''} text-white hover:font-bold hover:text-red-600 rounded-md px-3 py-2`}>
+            <Link href='/link1' className={`${pathname === '/link1' ? 'font-bold border-b-2 border-red-600' : ''} text-white hover:font-bold hover:text-red-600 px-3 py-2`}>
               Link 1
             </Link>
-            <Link href='/link2' className={`${pathname === '/link2' ? 'font-bold' : ''} text-white hover:font-bold hover:text-red-600 rounded-md px-3 py-2`}>
+            <Link href='/link2' className={`${pathname === '/link2' ? 'font-bold border-b-2 border-red-600' : ''} text-white hover:font-bold hover:text-red-600 px-3 py-2`}>
               Link 2
             </Link>
           </div>
