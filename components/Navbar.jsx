@@ -20,9 +20,9 @@ const Navbar = () => {
               alt='logo'
               width={120}
               height={120}
-            className='hidden gl:flex md:flex '/>
+            className='shadow hover:shadow-2xl hidden gl:flex md:flex border-4 px-3 py-2'/>
             </Link>
-          <div className='flex gap-4 text-lg'>
+          <div className='flex gap-6 text-lg'>
             <Link href='/' className={`${pathname === '/' ? 'font-bold border-b-2 border-gray-700' : ''} text-white hover:font-bold hover:text-gray-600 px-3 py-2`}>
               Home
             </Link>
